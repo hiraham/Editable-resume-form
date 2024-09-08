@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Editable Resume</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="resume">
+        <header>
+            <h1 contenteditable="true" id="name">Hira Hammad</h1>
+            <div class="personal-info">
+                <p contenteditable="true" id="email">Email: hirahammad34@email.com</p>
+                <p contenteditable="true" id="phone">Phone: (123) 4589260</p>
+            </div>
+        </header>
+
+        <section id="education-section">
+            <h2>Education</h2>
+            <div contenteditable="true" id="education">
+                <p>Bachelor of Science in Computer Science</p>
+                <p>University of karachi | 2015</p>
+            </div>
+        </section>
+
+        <section id="experience-section">
+            <h2>Work Experience</h2>
+            <div contenteditable="true" id="experience">
+                <p>Full-Stack Developer</p>
+                <p>Jan 2020 - Present</p>
+            </div>
+        </section>
+
+        <section id="skills-section">
+            <h2>Skills</h2>
+            <div contenteditable="true" id="skills">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>TypeScript</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </section>
+
+        <button id="save-btn">Save Changes</button>
+    </div>
+
+    <script src="script.js" type="module"></script>
+</body>
+</html>
